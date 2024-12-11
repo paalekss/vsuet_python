@@ -1,0 +1,13 @@
+def print_range(A, B):
+    if A < B:
+        for number in range(A, B + 1):
+            print(number)
+    else:
+        for number in range(A, B - 1, -1):
+            print(number)
+
+# Задайте значения A и B
+A = int(input("Введите значение A: "))
+B = int(input("Введите значение B: "))
+
+print_range(A, B)

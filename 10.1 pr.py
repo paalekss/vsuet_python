@@ -39,7 +39,6 @@ def is_magic_matrix(matrix, n):
         return 'Это НЕ магический квадрат'
 
 filename_vvod = 'ПудиноваАВ_ЗИТ-24м_vvod.txt'
-
 a = read_matrix(filename_vvod)
 n = len(a)
 
